@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV - HTML e CSS</title>
+
+    <style>
+       /* <!-- CSS INTERNO--> */
+     #div_Mae{
+        background-color: rgb(154, 250, 194); 
+        width: 500px; 
+        height: 500px;
+     }
+     #div_Filho{
+        background-color: rgb(150, 153, 246); 
+        height: 250px; 
+        width: 100%;
+     }
+     p{
+       background-color: rgb(242, 163, 208); 
+       font-size: 25px; 
+       font-family: monospace; 
+       font-weight: bold;
+       text-align: center;
+       color: rgb(8, 210, 18);
+     }
+     #segundaDiv_Mae{
+       background-color: rgb(245, 252, 109); 
+       width: 60%; 
+       height: 25vh;
+       text-align: center;
+     }
+     #segundaDiv_Filha{
+       background-color: rgb(216, 148, 227); 
+       width: 50vw;
+       height: 40%;
+       text-align: center;
+     }
+    </style>
+
+</head>
+
+<body>
+     <div id="div_Mae"> <!--DIV MÃE-->
+        <div id="div_Filho"> <!--DIV FILHO-->
+            <p>Oi</p>
+        </div> <!--FIM DIV FILHO-->
+    </div> <!--FIM DIV MÃE-->
+
+    <div id="segundaDiv_Mae"> <!--Segunda DIV MÃE-->
+        <div id="segundaDiv_Filha">  <!--DIV FILHA-->
+        </div>  <!--FIM DIV FILHA-->
+    </div> <!--FIM Segunda DIV MÃE-->
+</body>
+</html>
